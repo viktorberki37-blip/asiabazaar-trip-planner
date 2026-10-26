@@ -1,0 +1,19 @@
+TORII TRIP PLANNER — PWA Paket
+
+Dateien:
+- index.html: der Planner
+- manifest.webmanifest: App-Name, Farben und Anzeige-Modus
+- sw.js: Offline-Caching für die App-Dateien
+- torii.svg: Torii-Symbol
+
+WICHTIG:
+Damit Android im Browser „Installieren“ anbieten kann, muss die Website über HTTPS gehostet werden (localhost ist eine Ausnahme). Eine HTML-Datei, die direkt aus dem Download-Ordner geöffnet wird, kann nicht als installierbare PWA registriert werden.
+
+Ein einfacher Weg ist GitHub Pages:
+1. Ein GitHub-Konto öffnen/erstellen und ein neues Repository anlegen.
+2. Alle vier Dateien aus diesem Ordner hochladen. Die Datei index.html muss im veröffentlichten Stammordner liegen.
+3. In den Repository-Einstellungen unter Pages die Veröffentlichung vom main branch / root aktivieren.
+4. Nach Veröffentlichung die HTTPS-Adresse auf dem Handy in Chrome öffnen.
+5. Chrome-Menü ⋮ → „App installieren“ oder „Zum Startbildschirm hinzufügen“.
+
+Wenn GitHub Pages nicht zur Verfügung steht, kann ein anderer HTTPS-Webhost verwendet werden. Keine Passwörter oder privaten Daten in die Website-Dateien schreiben.
